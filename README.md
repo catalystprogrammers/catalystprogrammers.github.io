@@ -1,2 +1,2 @@
-# catalystcoders.github.io
-catalystcoders.github.io
+# catalystprogrammers.github.io
+catalystprogrammers.github.io
