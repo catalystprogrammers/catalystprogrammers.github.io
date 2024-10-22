@@ -4,3 +4,6 @@
 
 layout: home
 ---
+
+
+<img class="img_center" src="statics/img/demo.png" alt="Template">
