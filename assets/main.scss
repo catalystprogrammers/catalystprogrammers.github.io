@@ -1,4 +1,5 @@
-/* Imports */
+---
+---
 
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
@@ -15,6 +16,7 @@ $font-size-h1: 2rem !default;
 $font-weight-strong: 600;
 $bg-color: rgb(255, 255, 255);
 $text-color: rgb(0, 0, 0) !default;
+$logo-color: rgb(246, 151, 151) !default;
 $card-bg-color: linear-gradient(
   145deg,
   rgba(115, 115, 115, 0.15) 15%,
@@ -274,7 +276,7 @@ a {
     }
 
     .social-svg {
-      fill: white;
+      fill: rgb(71, 69, 69);
     }
 
     .label {
@@ -292,7 +294,7 @@ a {
       }
 
       .social-svg {
-        fill: #000;
+        fill: rgb(244, 149, 149);
       }
 
       .label {
