@@ -1,12 +1,12 @@
 {
-  "name": "Neumorphism",
+  "name": "Kumar Vipin Yadav",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "dev": "gulp",
     "prod": "gulp build"
   },
-  "author": "Long Do",
+  "author": "Kumar Vipin Yadav",
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.26.12",

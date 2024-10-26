@@ -9,7 +9,7 @@
  * Released under the MIT license
  * https://jquery.org/license
  *
- * Date: 2020-05-04T22:49Z
+ * Date: 2024-27-10
  */
 (function(global, factory) {
   'use strict';
@@ -529,7 +529,7 @@
      * Released under the MIT license
      * https://js.foundation/
      *
-     * Date: 2020-03-14
+     * Date: 2024-27-10
      */
     (function(window) {
       var i,
