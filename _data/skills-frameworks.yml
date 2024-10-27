@@ -15,19 +15,19 @@
   weight: 4
 
 - name: Node
-  weight: 1
-
-- name: Flutter
-  weight: 2
-
-- name: Express
-  weight: 3
+  weight: 4
 
 - name: Django
-  weight: 1
+  weight: 5
 
-- name: Spring
-  weight: 2
+- name: Python
+  weight: 5
 
-- name: Rails
-  weight: 4
+- name: Flask
+  weight: 5
+
+- name: Fast API
+  weight: 5
+
+- name: Selenium
+  weight: 5

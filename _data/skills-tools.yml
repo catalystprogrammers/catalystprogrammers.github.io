@@ -18,13 +18,10 @@
   weight: 1
 
 - name: Jenkins
-  weight: 1
-
-- name: Chrome DevTools
-  weight: 2
+  weight: 4
 
 - name: npm
-  weight: 2
+  weight: 4
 
 - name: gulp
   weight: 4
