@@ -270,7 +270,7 @@ a {
     }
 
     .social-svg {
-      fill: white;
+      fill: #0010ff;
     }
 
     .label {
@@ -283,7 +283,7 @@ a {
       .circle {
         animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
           colorBlackIcon 1s linear forwards;
-        fill: $text-color;
+        fill: #007bb6;
         fill-opacity: 1;
       }
 
@@ -627,7 +627,7 @@ a {
 
   .black:hover {
     .social-svg {
-      fill: #000;
+      fill: rgb(0, 179, 255);
     }
   }
 

@@ -14,16 +14,10 @@
 - name: Scrum
   weight: 3
 
-- name: Travis CI
-  weight: 1
-
 - name: Jenkins
   weight: 4
 
 - name: npm
-  weight: 4
-
-- name: gulp
   weight: 4
 
 - name: VS Code

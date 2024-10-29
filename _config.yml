@@ -98,7 +98,7 @@ projects_title: Projects
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
-show_os_projects: true
+show_os_projects: false
 # os_projects_title: The will be displayed as the title of your open source projects
 os_projects_title: Open Source Projects
 
@@ -110,7 +110,20 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.
+contact_description: >
+  <div class="contact-section">
+    <h2>Let's Connect!</h2>
+    <p>We'd love to hear from you. Here are ways to reach us:</p>
+    <ul>
+      <li><strong>Address:</strong> Pratap Nagar, Jaipur, India</li>
+      <li><strong>Social Media:</strong></li>
+      <ul>
+        <li><a href="https://www.facebook.com/catalystprogrammers">Facebook</a></li>
+        <li><a href="https://www.instagram.com/catalystprogrammers/">Instagram</a></li>
+        <li><a href="https://github.com/catalystprogrammers">GitHub</a></li>
+      </ul>
+    </ul>
+  </div>.
 
 # Exclude from processing.
 # The following items will not be processed, by default.

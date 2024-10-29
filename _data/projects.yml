@@ -13,21 +13,26 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: File Server
+  descr: "This project empowers you to effortlessly share and access your files from any device connected to the internet. By turning your local filesystem into a web server, you can easily collaborate on projects, share files with colleagues, or simply access your documents from anywhere."
+  demo: https://github.com/lyfofvipin/File-Server
   tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
+    - tag: Flask
+    - tag: Python
+    - tag: HTML, CSS
+    - tag: Javascript
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Medicine Exchanger
+  descr: "MedXchange is a revolutionary online platform designed to simplify the process of buying and selling medical equipment. Our platform connects healthcare providers, individuals, and organizations to a vast marketplace of quality medical equipment."
+  demo: https://github.com/lyfofvipin/Project/tree/master/my_usefull_script/med
   tags:
     - tag: Python
     - tag: Django
+    - tag: HTML, CSS
+    - tag: Javascript
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: Google Sheet To Calendar and Mail
+  descr: "This innovative project automates the process of transferring data from Google Sheets to Google Calendar. By seamlessly integrating with Google's APIs, it efficiently creates calendar events based on the specified data. Additionally, the system can send personalized email notifications to a large number of recipients, streamlining communication and ensuring timely updates."
+  tags:
+    - tag: Javascript
+    - tag: Rest API
