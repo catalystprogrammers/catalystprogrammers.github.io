@@ -35,7 +35,7 @@ const Instructors = () => {
     <div className="container my-5">
       <div className="row">
         <h2 className="text-center mt-1 mb-5 inst-heading">
-          <img className='courseimg ' src="/images/i2 (2).png" alt="" />
+          <img className='courseimg ' src={`${process.env.PUBLIC_URL}/images/i2 (2).png`} alt="" />
 
           &nbsp; &nbsp; &nbsp; &nbsp;"An instructor’s reward is the success of their students."
           <h1 className='newsletter-p fs-1 mt-3'>Meet our mentors: Guiding the way to your success!</h1>
@@ -66,34 +66,34 @@ const Instructors = () => {
         <h1 className='text-center mt-5 mb-5 newsletter-p '>What’s in It for You? Discover the Advantages!</h1>
         <div className="icons-section mt-2">
           <div className="icon-card">
-            <img src="/images/icons-i/1.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/images/icons-i/1.png`} alt="" />
             <p>Lifetime Access</p>
           </div>
           <div className="icon-card">
-            <img src="/images/icons-i/2.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/images/icons-i/2.png`} alt="" />
             <p>24/7 Support</p>
           </div>
           <div className="icon-card">
-            <img src="/images/icons-i/3.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/images/icons-i/3.png`} alt="" />
             <p>Expert Mentorship</p>
           </div>
           <div className="icon-card">
-            <img src="/images/icons-i/4.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/images/icons-i/4.png`} alt="" />
             <p>Certification of Completion</p>
           </div>
           <div className="icon-card">
-            <img src="/images/icons-i/5.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/images/icons-i/5.png`} alt="" />
             <p>Hands-on-Projects</p>
           </div>
           <div className="icon-card">
-            <img src="/images/icons-i/6.png" alt="s" />
+            <img src={`${process.env.PUBLIC_URL}/images/icons-i/6.png`} alt="s" />
             <p>Flexible Schedule</p>
           </div>
           <div className="icon-card">
-            <img src="/images/icons-i/7.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/images/icons-i/7.png`} alt="" />
             <p>Live Sessions</p>
           </div><br />
-          <img src="/images/ibook.png" className='bookimg' alt="" />
+          <img src={`${process.env.PUBLIC_URL}/images/ibook.png`} className='bookimg' alt="" />
         </div>
       </div>
       <hr style={{ width: "50vw" }} />

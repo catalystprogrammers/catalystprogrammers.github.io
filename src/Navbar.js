@@ -21,13 +21,13 @@ function Navbar() {
       <div className="top-bar">
         <div className="container">
           <div>
-            <img src="/images/phone.png" width={"20px"} />
+            <img src={`${process.env.PUBLIC_URL}/images/phone.png`} width={"20px"} />
             <a href="tel:+918503967987" style={{ textDecoration: "none", color: "white" }}>
               +91-8503967987
             </a>
           </div>
           <div>
-            <img src="/images/gmail.png" width={"15px"} />
+            <img src={`${process.env.PUBLIC_URL}/images/gmail.png`} width={"15px"} />
             <a href="mailto:catalystprogrammers@gmail.com" className="me-5" style={{ textDecoration: "none", color: "white" }}>
               catalystprogrammers@gmail.com
             </a>
@@ -35,7 +35,7 @@ function Navbar() {
           <span>
             <Link
               to="https://forms.gle/EdmEmQanaF6TsQDZ9"
-              style={{ textDecoration: "none", color: "white" }}
+              style={{ textDecoration: "none", color: "white" }} s
             >
               Register Now
             </Link>
@@ -47,7 +47,7 @@ function Navbar() {
       {/* Navbar */}
       <nav className="navbar sticky-top">
         <div className="logo">
-          <img className="navlogoimg" src="/images/cplogo.png" alt="Logo" />
+          <img className="navlogoimg" src={`${process.env.PUBLIC_URL}/images/cplogo.png`} alt="Logo" />
         </div>
 
         {/* Navigation Links */}

@@ -26,7 +26,7 @@ const Courses = () => {
   return (
     <div className="courses-page" style={{ maxWidth: "100vw", overflowX: "hidden" }}>
       <h1 className="text-center mt-5 mb-5 courseheading ">
-        <img className='courseimg' src="/images/courseicon.png" alt="" />
+        <img className='courseimg' src={`${process.env.PUBLIC_URL}/images/courseicon.png`} alt="" />
         "Make it work, make it right, make it fast. – Kent Beck"
         <h1 className='newsletter-p fs-1 mt-5 course-h1'> EXPLORE OUR COURSES </h1>
       </h1>

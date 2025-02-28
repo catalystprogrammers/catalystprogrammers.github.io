@@ -11,32 +11,32 @@ const TestimonialSlider = () => {
     {
       name: "Aishwarya Bachchani",
       feedback: "Catalyst's hands-on projects were the highlight for me. They gave me practical experience and boosted my confidence in coding.",
-      image: "/images/students/s1.jpg",
+      image: `${process.env.PUBLIC_URL}/images/students/s1.jpg`
     },
     {
       name: "Gaurav singh solanki",
       feedback: "As a beginner, I found the courses perfect for understanding programming basics. The step-by-step approach really worked for me.",
-      image: "/images/students/s2.jpg",
+      image: `${process.env.PUBLIC_URL}/images/students/s2.jpg`,
     },
     {
       name: "Rajat Mishra",
       feedback: "The support from the mentors was amazing! They were always available to clear my doubts, which made the learning process smooth.",
-      image: "/images/students/s3.jpg",
+      image: `${process.env.PUBLIC_URL}/images/students/s3.jpg`
     },
     {
       name: "Anchal Chaudhary",
       feedback: "The projects were challenging but rewarding. They helped me understand how to apply concepts in real-world scenarios.",
-      image: "/images/students/s4.jpg", // Replace with actual image URLs
+      image: `${process.env.PUBLIC_URL}/images/students/s4.jpg`, // Replace with actual image URLs
     },
     {
       name: "Yash Sharma",
       feedback: "The pricing is very affordable for the value provided. I was able to land my first internship after completing the course.",
-      image: "/images/students/s5.jpg",
+      image: `${process.env.PUBLIC_URL}/images/students/s5.jpg`,
     },
     {
       name: "Kishan Jangid",
       feedback: "The course content was detailed and well-explained. I loved how the instructors made the lessons engaging and easy to follow.",
-      image: "/images/students/s6.jpg",
+      image: `${process.env.PUBLIC_URL}/images/students/s6.jpg`,
     },
   ];
 
@@ -69,9 +69,7 @@ const TestimonialSlider = () => {
         ))}
       </Swiper>
       <hr style={{ width: "50vw" }} />
-
     </div>
-
   );
 };
 

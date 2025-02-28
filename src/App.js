@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Import React Router
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';  // Import React Router
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar';
@@ -13,6 +13,7 @@ import BlogPage from './BlogPage';
 import CourseDetails from './CourseDetails';
 import InstructorDetailPage from './InstructorDetailPage';
 import ScrollToTop from './ScrollToTop';  // Import ScrollToTop component
+import Error from './Error';
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
         <Route path="/instructor/:id" element={<InstructorDetailPage />} />
         <Route path="/BlogPage" element={<BlogPage />} />
         <Route path="/coursedetails/:id" element={<CourseDetails />} /> {/* CourseDetails route */}
+        <Route path="*" element={<Error />} />
+
       </Routes>
 
       <Footer />

@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
-import{Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaTwitter, FaPinterest, FaYoutube, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-   <footer>
+    <footer>
 
       <div className="footer-content">
         {/* Brand Description */}
         <div className="footer">
-          <img className="footer-logo mb-1" src="/images/cplogo.png" alt="Logo" />
+
+          <img className="footer-logo mb-1" src={`${process.env.PUBLIC_URL}/images/cplogo.png`} alt="Logo" />
         </div>
         <br />
         <h1 className="newsletter-p">
@@ -28,26 +29,26 @@ const Footer = () => {
               <a href="https://www.facebook.com/catalystprogrammers?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
               <a href="https://www.instagram.com/catalystprogrammers/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
               <a href="https://wa.me/918503967987?text=Hello,%20I%20need%20more%20information" target="_blank" rel="noopener noreferrer">
-  <FaWhatsapp />
-</a>
+                <FaWhatsapp />
+              </a>
               <a href="https://www.youtube.com/@lyfofvipin_tech" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
             </div>
           </div>
 
           {/* Important Links */}
           <div className="footer-section important-links">
-  <h2>Important Links</h2>
-  <ul>
-    {/* Link to the About Us section */}
-    <li><a href="#about-us">About Us</a></li> 
-    {/* Links to different pages within the app */}
+            <h2>Important Links</h2>
+            <ul>
+              {/* Link to the About Us section */}
+              <li><a href="#about-us">About Us</a></li>
+              {/* Links to different pages within the app */}
 
-    <li><Link to="/Courses">Our Courses</Link></li>
-    <li><Link to="/Instructors">Instructors</Link></li>
-    <li><Link to="/BlogPage">Blogs</Link></li>
-    <li><Link to="/Contact">Contact Us</Link></li>
-  </ul>
-</div>
+              <li><Link to="/Courses">Our Courses</Link></li>
+              <li><Link to="/Instructors">Instructors</Link></li>
+              <li><Link to="/BlogPage">Blogs</Link></li>
+              <li><Link to="/Contact">Contact Us</Link></li>
+            </ul>
+          </div>
 
           {/* Newsletter */}
           <div className="footer-section newsletter">
